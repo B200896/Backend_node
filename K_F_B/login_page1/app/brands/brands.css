@@ -1,0 +1,27 @@
+
+.brands ul li {
+  margin: 20px 50px;
+  font-size: 30px;
+  color: black;
+}
+
+.brands ul li:hover {
+  color: gray;
+}
+
+.inner-brands {
+  opacity: 0; 
+  visibility: hidden;
+  transition: all 400ms ease-in-out;
+  width: 250px;
+  position: absolute;
+  text-align: left;
+}
+
+.brands:hover .inner-brands {
+  opacity: 1;
+  visibility: visible;
+  width: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+}

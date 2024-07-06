@@ -1,0 +1,40 @@
+/* header.css */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 28px;
+    margin: 0px 20px;
+}
+
+.header nav ul li:hover {
+    text-decoration: underline;
+}
+/* Apply styles to the button inside the li */
+li button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Adjust styles for button on hover */
+  li button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
